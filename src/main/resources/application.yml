@@ -1,0 +1,3 @@
+openweathermap-starter:
+  sdkKey: your-api-key
+  city: Amsterdam
