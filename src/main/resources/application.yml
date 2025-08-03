@@ -1,3 +1,7 @@
 openweathermap-starter:
   sdkKey: your-api-key
   city: Amsterdam
+
+grpc:
+  server:
+    port: 9090
