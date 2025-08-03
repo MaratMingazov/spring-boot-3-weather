@@ -22,6 +22,8 @@ dependencies {
     implementation("io.grpc:grpc-stub:$grpcVersion")
     implementation("javax.annotation:javax.annotation-api:1.3.2") // solve cannot find symbol @javax.annotation.Generated(
     implementation("net.devh:grpc-server-spring-boot-starter:2.15.0.RELEASE")
+
+    implementation("org.springframework.boot:spring-boot-starter-websocket") //  ws://localhost:8080/weather-ws
 }
 
 allprojects {
